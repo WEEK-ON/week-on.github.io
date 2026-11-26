@@ -18,7 +18,7 @@ TYPE   Noto Sans KR 900 제목, 500 본문
 *{box-sizing:border-box;margin:0}
 html,body{height:100%}
 body{font:15px/1.4 'Noto Sans KR',system-ui,sans-serif;color:var(--ink);overflow:hidden}
-#map{position:fixed;inset:0}
+#map{position:fixed!important;inset:0;width:100vw;height:100vh;height:100dvh}
 .top{position:fixed;left:12px;right:12px;top:calc(12px + env(safe-area-inset-top));z-index:10;display:flex;gap:8px;align-items:flex-start;pointer-events:none}
 .card{pointer-events:auto;background:var(--panel);border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.18);padding:12px 14px}
 .title b{display:block;font-weight:900;font-size:19px;letter-spacing:-.02em}
